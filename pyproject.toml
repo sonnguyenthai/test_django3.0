@@ -15,7 +15,7 @@ isort = {version = "^4.3.21", allows-prereleases = true}
 pre-commit = "^1.18.3"
 
 [tool.black]
-line-length = 88
+line-length = 120
 target-version = ['py37']
 include = '\.pyi?$'
 exclude = '''
@@ -42,7 +42,7 @@ exclude = '''
 force_grid_wrap = 0
 force_single_line = true
 include_trailing_comma = true
-line_length = 88
+line_length = 120
 lines_after_imports = 2
 multi_line_output = 3
 use_parentheses = true

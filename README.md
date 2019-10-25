@@ -13,3 +13,10 @@
     * Remove packages with `poetry`: `poetry remove django`
     * Install all dependencies with `poetry`: `poetry install`
 - All configurations are in `pyproject.toml`     
+- Install `black`: `poetry add -D black` then add configurations as in `pyproject.toml`
+- Install `isort`: `poetry add -D isort` then add configurations as in `pyproject.toml`
+- Install `pre-commit`: `poetry add -D pre-commit`
+- Setup `pre-commit`:
+    * create file `.pre-commit-config.yaml` as in the project
+    * run `pre-commit install` to start `pre-commit`
+    
